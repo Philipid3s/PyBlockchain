@@ -8,9 +8,6 @@ import datetime
 import os
 import psycopg2
 
-#BASE_URL = 'http://127.0.0.1:5000'
-#DATABASE_URL = 'postgres://hutzvtefjxlkbg:e8a5444ac9953c604df8272b40c9451bb6e34cea42a7cb86d37aa237adb443b4@ec2-54-225-96-191.compute-1.amazonaws.com:5432/d30o5uum8id8hv'
-
 BASE_URL = 'https://app-blockchain.herokuapp.com'
 DATABASE_URL = os.environ['DATABASE_URL']
 
