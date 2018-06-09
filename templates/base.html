@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
+</head>
+
+<body>
+  <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    {{ title }}
+                </h1>
+                <p>Prototype developed in Python showing how the blockchain technology can be used as a decentralized content sharing platform</p>
+                <p>Specifications: encryption SHA-256</p>
+            </div>
+        </div>
+    </section>
+
+  {% block content %}
+  {% endblock %}
+
+  <footer class="footer">
+    <p>by <a href="mailto:julien.regnault@gmail.com">Julien Regnault</a></p>
+    <br>
+    <br>
+    <pr>References: https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html</pr>
+  </footer>
+</body>
+</html>
